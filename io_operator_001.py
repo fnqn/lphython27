@@ -16,7 +16,5 @@ print os.path.join('D:\Scripts\Python\Liaoxuefeng\lphython27','dirtest001')
 #os.rename('1.txt', '2.txt')
 #os.remove('2.txt')
 
-#print [x for x in os.listdir('.') if os.path.isdir(x)]
-#print [x for x in os.listdir('.') if os.path.isfile(x) and os.path.splitext(x)[1] == '.py']
-
-print [x for x in os.listdir('.') if os.path.isfile(x) and os.path.splitext(x)[1] == '*001*']
+print [x for x in os.listdir('.') if os.path.isdir(x)]
+print [x for x in os.listdir('.') if os.path.isfile(x) and os.path.splitext(x)[1] == '.py']
